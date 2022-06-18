@@ -12,51 +12,36 @@
 
 *Screenshots:*
 
-<img src="https://i.ibb.co/nwypvms/anichar2.jpg" width=80%>
+<img src="https://raw.githubusercontent.com/akash-kamat/firechat/master/pic2.png" width=75%>
 
-<img src="https://i.ibb.co/Z8w7rx0/anichar3.jpg" width=80%>
+<img src="https://raw.githubusercontent.com/akash-kamat/firechat/master/pic1.png" width=25%>
 
-<img src="https://i.ibb.co/3djs10f/akash-kamat-github-io-anichar-Moto-G4.png" width="40%">
 
-## How to clone and run
+# How to clone and run
 
-First clone this repo by running: `git clone https://github.com/akash-kamat/anichar.git`
+First clone this repo by running: `git clone https://github.com/akash-kamat/firechat.git`
 or directly Download the zip file https://github.com/akash-kamat/anichar/archive/refs/heads/main.zip
 
-In the project directory, you can run:
+### FireBase Setup
 
----------------------------------------------------------------------
+1. First make a `firebase-config.js` file in the ```src``` directory
+2. Setup a firebase app from its console and initilalize the app ```firebase-config.js```
+3. Setup Realtime hosting from the firebase console
 
-### For server:
+### React Setup
 
-Edit the mongoDB connection string at Line 8 of `main.js` in server folder
-
-Goto server folder in and run
+1. In the project directory, run the following commands:
 
 ```
 npm install
 npm start
 ```
 
-This Runs the server on [http://localhost:3001](http://localhost:3001).
+This Runs the app on [http://localhost:3000](http://localhost:3000).
 
 
 -------------------------------------------------------------------------
 
-### For Client:
-
-Run the following commands in the Root folder
-
-```
-npm install
-npm start
-```
-
-This Runs the App on [http://localhost:3000](http://localhost:3000).
-Open a browser to see it
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm run build`
 
