@@ -8,7 +8,7 @@
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-## App live on : [FireChat](https://akash-kamat.github.io/anichar/)
+## App live on : [FireChat](https://akash-kamat.github.io/firechat/)
 
 *Screenshots:*
 
