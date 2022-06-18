@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/firechat/static/css/main.ea351e5e.css",
+    "main.js": "/firechat/static/js/main.81d3eeec.js",
+    "index.html": "/firechat/index.html",
+    "main.ea351e5e.css.map": "/firechat/static/css/main.ea351e5e.css.map",
+    "main.81d3eeec.js.map": "/firechat/static/js/main.81d3eeec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea351e5e.css",
+    "static/js/main.81d3eeec.js"
+  ]
+}
