@@ -20,7 +20,7 @@
 # How to clone and run
 
 First clone this repo by running: `git clone https://github.com/akash-kamat/firechat.git`
-or directly Download the zip file https://github.com/akash-kamat/anichar/archive/refs/heads/main.zip
+or directly Download the zip file [https://github.com/akash-kamat/firechat/archive/refs/heads/master.zip](https://github.com/akash-kamat/firechat/archive/refs/heads/master.zip)
 
 ### FireBase Setup
 
