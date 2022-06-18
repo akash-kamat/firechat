@@ -11,7 +11,6 @@ export default function Nav({ logout }) {
             {logout && <div className='logout-container'>
                 <button className='logout-btn' onClick={logout}>Logout</button>
             </div>}
-
         </div>
     )
 }
