@@ -1,0 +1,59 @@
+.msg-block {
+    background-color: rgb(236, 246, 255);
+    color: black;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    border-radius: 0px 45px 0px 20px;
+    width: 90%;
+}
+
+.msg-block-logged {
+    background-color: rgb(241, 255, 231);
+    color: black;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    border-radius: 45px 0px 20px 0px;
+    width: 90%;
+    margin-left: auto;
+}
+
+.dp {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.msg-container {
+    margin: -12px 10px 0px 12px;
+}
+
+.message {
+    font-family: 'Lato', sans-serif;
+    color: rgb(47, 47, 47);
+    letter-spacing: 0.7px;
+    word-spacing: 1.5px;
+}
+
+.chat-flex {
+    display: flex;
+}
+
+.chat-flex-logged {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.date-time-container {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.date-time-container-logged {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: rgba(0, 0, 0, 0.3);
+}

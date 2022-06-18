@@ -1,0 +1,42 @@
+.chatroom {
+    background-color: #4949b0;
+    padding-top: 30px;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+
+.form {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: #4949b0;
+}
+
+#msgBox {
+    width: 100%;
+    background-color: rgb(18, 21, 71);
+    border: none;
+    color: white;
+    outline: none;
+    height: 50px;
+}
+
+#msgBox::placeholder {
+    color: rgba(255, 255, 255, 0.792);
+    letter-spacing: 3px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.send-btn {
+    width: 60px;
+    font-size: 26px;
+    background-color: rgb(237, 122, 14);
+    border-radius: 3px;
+    color: white;
+    border: none;
+}

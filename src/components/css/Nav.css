@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #101034;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PT Mono', monospace;
+    font-size: 0.86rem;
+    overflow: hidden;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    /* margin: auto 2px; */
+}
+
+.navbar-title {
+    margin: 0;
+}
+
+.logout-container {
+    vertical-align: middle;
+    margin: 2px;
+}
+
+.logout-btn {
+    margin: auto 2px;
+    font-size: 1.5rem;
+    background-color: rgb(233, 129, 17);
+    border-radius: 3px;
+    color: white;
+    border: none;
+}
