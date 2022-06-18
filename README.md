@@ -1,7 +1,7 @@
 # FireChat
 
 
-> An authenticated Public Chat WebApp
+> A google authenticated public Chat WebApp
 
  
 
