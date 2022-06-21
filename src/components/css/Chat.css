@@ -7,6 +7,15 @@
     width: 90%;
 }
 
+.msg-block-admin {
+    background-color: rgb(236, 246, 255);
+    color: black;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    border-radius: 0px 45px 0px 20px;
+    width: 90%;
+}
+
 .msg-block-logged {
     background-color: rgb(241, 255, 231);
     color: black;

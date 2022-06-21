@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/Nav.css'
-import { useEffect } from 'react'
+
 export default function Nav({ logout }) {
 
     return (
