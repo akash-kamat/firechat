@@ -1,3 +1,13 @@
+@keyframes drop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .navbar {
     background-color: #101034;
     color: white;
@@ -7,6 +17,7 @@
     font-size: 0.86rem;
     overflow: hidden;
     padding: 10px;
+    animation: drop 0.9s ease 1;
     /* margin-bottom: 20px; */
     /* margin: auto 2px; */
 }
@@ -27,4 +38,6 @@
     border-radius: 3px;
     color: white;
     border: none;
+    font-family: 'PT Mono', monospace;
+    font-weight: bold;
 }

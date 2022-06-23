@@ -1,3 +1,27 @@
+@keyframes right {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes left {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .msg-block {
     background-color: rgb(236, 246, 255);
     color: black;
@@ -5,6 +29,7 @@
     padding: 8px 15px;
     border-radius: 0px 45px 0px 20px;
     width: 90%;
+    animation: right 0.55s ease-in-out 1;
 }
 
 .msg-block-admin {
@@ -14,6 +39,7 @@
     padding: 8px 15px;
     border-radius: 0px 45px 0px 20px;
     width: 90%;
+    animation: right 0.55s ease-in-out 1;
 }
 
 .msg-block-logged {
@@ -24,6 +50,7 @@
     border-radius: 45px 0px 20px 0px;
     width: 90%;
     margin-left: auto;
+    animation: left 0.55s ease-in-out 1;
 }
 
 .dp {
