@@ -66,3 +66,48 @@
     text-align: start;
     color: rgba(0, 0, 0, 0.3);
 }
+
+.msg-block-loading {
+    background-color: rgb(181 212 241);
+    color: black;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    border-radius: 0px 45px 0px 20px;
+    width: 90%;
+}
+
+.msg-block-logged-loading {
+    background-color: rgb(197 255 156);
+    color: black;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    border-radius: 45px 0px 20px 0px;
+    width: 90%;
+    margin-left: auto;
+}
+
+
+.left-dp {
+    background-color: #9e9ecb !important;
+}
+
+.left-msg {
+    background-color: #9e9ecb !important;
+
+}
+
+.left-date {
+    background-color: #9e9ecb !important;
+}
+
+.right-dp {
+    background-color: #7bb17f !important;
+}
+
+.right-msg {
+    background-color: #7bb17f !important;
+}
+
+.right-date {
+    background-color: #7bb17f !important;
+}
