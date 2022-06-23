@@ -1,6 +1,19 @@
+@keyframes color {
+  0% {}
+
+  50% {
+    filter: grayscale(1);
+  }
+
+  100% {
+    filter: grayscale(0);
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
+  animation: color 1s ease-in-out 1;
 }
 
 * {

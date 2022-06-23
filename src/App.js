@@ -9,6 +9,7 @@ import Nav from './components/Nav';
 
 function App() {
   const [user, setUser] = useState({});
+  const [loading, setLoading] = useState(false);
 
 
   onAuthStateChanged(auth, (currentUser) => {
@@ -50,7 +51,7 @@ function App() {
     return (
       <>
         <Nav logout={logout} />
-        <ChatRoom database={database} user={user} />
+        <ChatRoom loading={loading} setLoading={setLoading} database={database} user={user} />
       </>
     )
   }
